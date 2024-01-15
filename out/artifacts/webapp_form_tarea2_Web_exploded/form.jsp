@@ -15,6 +15,7 @@
 
     String mensaje = (String) request.getAttribute("mensaje");
 
+    @SuppressWarnings("unchecked")
     Map<String, String> errores = (Map<String, String>) request.getAttribute("errores");
 
     String nombreError = null;
