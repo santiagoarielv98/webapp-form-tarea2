@@ -45,6 +45,10 @@ public class RegistroProductoServlet extends HttpServlet {
             errores.put("fabricante", "El fabricante debe tener entre 4 y 10 caracteres");
         }
 
+        req.setAttribute("nombre", nombre);
+        req.setAttribute("precio", precio);
+        req.setAttribute("fabricante", fabricante);
+
         req.setAttribute("errores", errores);
 
         if (errores.isEmpty()) {
