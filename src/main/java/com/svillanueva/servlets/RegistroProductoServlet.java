@@ -1,4 +1,4 @@
-package com.svillanueva;
+package com.svillanueva.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
